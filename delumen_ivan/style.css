@@ -1,0 +1,68 @@
+h1 {
+  background: url(./assets/red.jpg);
+  font-style: oblique;
+  color: red;
+  background-repeat: no-repeat;
+  height: 50px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-style: oblique;
+  color: red;
+}
+
+.hobbies-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.works-container {
+  display: flex;
+  border: 5px solid;
+  color: red;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.gallery-container {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.gallery-container img {
+  width: 150px;
+  height: 100px;
+}
+
+.gallery-container h2 {
+  font-style: normal;
+  color: black;
+}
+
+.testimonials-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.comment-box {
+  width: 250px;
+  background-color: red;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}

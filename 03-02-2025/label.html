@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <title>Label</title>
   </head>
-  <body>
+  <div>
     <div>
       <label for="like"> Do you really like me? </label>
       <input type="checkbox" name="like" id="like" />
-    </div>
+    </div> <br>
+    <div>
     <label for="username">Username:</label>
-    <input type="text" id="username" />
-    <p>
+    <input type="text" id="username" placeholder="Enter Username"/>
+    </div> <br>
+    <div>
       <label for="password">Password: </label>
-      <input type="password" id="password" />
-    </p>
-    <p>
-      Number:
-      <input type="number" name="number" />
-    </p>
-    <p>
+      <input type="password" id="password" placeholder="Enter Password"/>
+    </div> <br>
+    <div>
+      <label for="number">Number:</label>
+      <input type="number" id="number" placeholder="Enter Number"/>
+    </div> <br>
+    <div>
       <input type="file" />
-    </p>
-    <label for="story">Tell us your story: </label><br />
+    </div> <br>
+    <div>
+    <label for="story">Tell us your story: </label> <br>
     <textarea id="story" name="story" rows="5" cols="33">
       Everytime i see your eyes it reminds me the day that i fell for you
-    </textarea
-    >
-    <br />
+    </textarea>
+    </div> <br>
+    <div>
     <select>
       <option value="">--Please choose an option--</option>
       <option value="Ivan">Ivan</option>
       <option value="Delumen">Delumen</option>
       <option value="Virrey">Virrey</option>
-    </select>
-    <br />
+    </select> 
+    </div> <br>
+    <div>
     <button type="button" onclick="alert('Hello po')">Click Me!</button>
-    <br />
+    </div> <br>
+    <div>
     <fieldset>
       <legend>Select a maintenance drone:</legend>
       <input type="radio" id="huey" name="drone" value="huey" checked />
@@ -47,5 +52,6 @@
       <input type="radio" id="louie" name="drone" value="louie" />
       <label for="louie">Louie</label>
     </fieldset>
+    </div>
   </body>
 </html>

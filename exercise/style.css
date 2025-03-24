@@ -1,0 +1,14 @@
+#button {
+    width: 100px;
+    height: 25px;
+}
+
+select {
+    width: 80px;
+}
+
+.box-item {
+    width: 300px;
+    background-color: aqua;
+    height: 100px;
+}

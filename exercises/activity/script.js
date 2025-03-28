@@ -1,4 +1,1 @@
-myFucntion () {
-    document.getElementById
-};
 

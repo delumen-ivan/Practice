@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.form-section {
+    margin: 50px auto;
+    border: 5px solid red;
+    border-radius: 10px;
+    box-shadow: 10px rgba(0, 0, 0, 0.5); 
+    background-color: transparent;
+    padding: 20px;
+    width: 600px;
+}
+
+.box-area {
+    margin: 2px;
+    padding: 2px;
+}
+
+.box-area input, .box-area textarea {
+    margin: 5px;
+    padding: 5px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.submit-btn {
+    width: 500px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+}

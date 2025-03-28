@@ -1,0 +1,4 @@
+myFucntion () {
+    document.getElementById
+};
+

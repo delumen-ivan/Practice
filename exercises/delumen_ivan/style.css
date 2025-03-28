@@ -1,0 +1,15 @@
+.contact_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr;
+    width: 500px;
+
+}
+
+.email {
+    border: 1 solid black;
+}
+
+.contact_form div {
+    border: 1px solid black;
+}

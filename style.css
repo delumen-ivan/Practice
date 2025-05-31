@@ -1,0 +1,43 @@
+.logo {
+    grid-area: logo;
+ }
+
+ .title {
+    grid-area: title;
+ }
+
+ .toolbar {
+    grid-area: toolbar;
+ }
+
+ .logo, .title, .toolbar {
+    border: 1px solid;
+    padding: 20px;
+ }
+
+.header {
+    display: grid;
+    text-align: center;
+ }
+
+ @media (max-width: 426px) {
+    .header {
+        grid-template-areas:
+            "logo title"
+            "toolbar toolbar";
+    }
+ }
+ @media (min-width: 426px) and 
+(max-width: 768px) {
+    .header {
+        grid-template-areas:
+            "logo title toolbar";
+    }
+ }
+ @media (min-width: 769px) {
+    .header {
+        grid-template-areas:
+            "title title title"
+            "logo . toolbar";
+    }
+ }
